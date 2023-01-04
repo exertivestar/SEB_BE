@@ -3,11 +3,11 @@ class Foo{
     public String instanceVar = "I instance var";
     public static void classMethod() {
         System.out.println(classVar); // Ok
-//      System.out.println(instanceVar); // Error
+//      System.out.println(instanceVar); // Error 클래스메서드 안에서는 인스턴스변수에 접근 불가
     }
     public void instanceMethod() {
         System.out.println(classVar); // Ok
-        System.out.println(instanceVar); // Ok
+        System.out.println(instanceVar); // Ok 인스턴스메서드 안에서는 인스턴스변수에 접근 가능
     }
 }
 public class StaticApp {

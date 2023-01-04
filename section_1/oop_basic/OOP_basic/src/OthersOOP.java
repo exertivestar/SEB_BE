@@ -9,7 +9,7 @@ public class OthersOOP {
 
         System.out.println(Math.PI);
         System.out.println(Math.floor(1.8));
-        System.out.println(Math.ceil(1.8));
+        System.out.println(Math.ceil(1.8)); // 올림
 
         FileWriter f1 = new FileWriter("data.txt");
         f1.write("Hello");
