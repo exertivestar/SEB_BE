@@ -1,10 +1,1 @@
-# SEB_BE (Software engineering bootcamp back-end)
-
-Section 1
-  -OOT basic
-  -OOT advanced
-  -Java collection
-  -Java effective
-  
-Section 2 
-  ...
+# These are the codes I wrote while learning a SEB_BE(Software engineering bootcamp back-end) course.
